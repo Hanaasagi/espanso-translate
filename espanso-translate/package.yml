@@ -32,6 +32,8 @@ global_vars:
     params:
       echo: ""
 
+matches:
+  - regex: ":\\((?P<p>.*?)\\)"
     replace: "{{output}}"
     vars:
       - name: openai_key
