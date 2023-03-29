@@ -1,4 +1,4 @@
-name: gpt
+name: espanso-translate
 parent: default
 
 global_vars:
@@ -20,7 +20,7 @@ global_vars:
   - name: "SCRIPT_PATH"
     type: "echo"
     params:
-      echo: '"$CONFIG/match/packages/espanso-gpt/scripts/trans.py"'
+      echo: '"$CONFIG/match/packages/espanso-translate/scripts/trans.py"'
   # Custom Python path for venv user
   - name: "PYTHON"
     type: "echo"
